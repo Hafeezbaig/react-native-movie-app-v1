@@ -48,3 +48,34 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+---
+
+Tech stack:
+- expo
+- react native
+- nativewind (tailwind css)
+- 
+
+
+Supports:
+- ios
+- android
+
+packages:
+- nativewind
+- tailwindcss
+- react-native-reanimated
+- react-native-safe-area-context
+
+comments:
+(setup for styling)
+- run "npx tailwindcss init" to generate config file
+- copy paste the config data from the reactwind expo docs
+- create "globals.css" in app/ route. then import the css data from the reactwind expo docs
+- create babel file in root folder and add the data from the reactwind expo docs
+- generate metro.config.js using "npx expo customize metro.config.js" and add the data from the reactwind expo docs
+- import ./globals.css in the app/_layout.tsx file
+- create nativewind-env.d.ts file in the root folder and add the data from the reactwind expo docs
+- update this ./app/globals.css in the metro file 
