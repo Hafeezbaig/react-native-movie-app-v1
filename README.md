@@ -79,3 +79,6 @@ comments:
 - import ./globals.css in the app/_layout.tsx file
 - create nativewind-env.d.ts file in the root folder and add the data from the reactwind expo docs
 - update this ./app/globals.css in the metro file 
+
+shortcuts:
+- rnfes (simple react native code, boilerplate)
